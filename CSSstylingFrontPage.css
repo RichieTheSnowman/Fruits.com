@@ -38,3 +38,10 @@
   font-size: 16px;
   padding: 16px 32px;
 }
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
